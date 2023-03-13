@@ -21,6 +21,7 @@ FUN is called with no arguments."
                                       (goto-char (+ begin (round (- end begin) 2)))
                                       (funcall fun)))))))
 
+;;;###autoload
 (defun org-update-clock-times ()
   "Update clock times in the current buffer."
   (interactive)
