@@ -1,4 +1,4 @@
-;;; package --- Summary
+;;; package --- Summary  -*- lexical-binding: t; -*-
 ;;; Author: Hauke Rehfeld <emacs@haukerehfeld.de>
 ;;; Version: 0.1
 ;;; Package-Requires: (org)
