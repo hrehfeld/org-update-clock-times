@@ -26,6 +26,7 @@ FUN is called with no arguments."
   "Update clock times in the current buffer."
   (interactive)
   (cl-assert (derived-mode-p 'org-mode))
+  ;; TODO: use progress reporter
   (message "updating clock times, this might take a while...")
   (org-update-clock-times-map #'org-clock-update-time-maybe))
 
